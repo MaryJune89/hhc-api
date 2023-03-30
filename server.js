@@ -33,7 +33,7 @@ app.get('/', (request, response) => {
     response.sendFile(__dirname + '/index.html')
 })
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
     console.log(`Your server is running on port ${PORT}, better go catch it!`)
 })
 
