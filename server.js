@@ -29,6 +29,8 @@ const agencies = {
     }
 }
 
+res.set('content-type', 'text/html')
+
 app.get('/', (request, response) => {
     response.sendFile(__dirname + '/index.js')
 })
