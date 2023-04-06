@@ -10,7 +10,7 @@
 
 <body>
     <h1>Home Health Care API</h1>
-    <p>Please use localhost:7000/api/hhc-api-test</p>
+    <p>Please use https://busy-blue-turtle-hose.cyclic.app/api/provider-name</p>
 </body>
 
 </html>
