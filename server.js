@@ -45,3 +45,4 @@ app.get('/api/:name', (request, response) => {
         response.json(agencies['unknown'])
     }
 })
+res.set('content-type', 'text/html')
