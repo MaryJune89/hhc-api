@@ -45,5 +45,7 @@ app.get('/api/:name', (request, response) => {
     } else {
         response.json(agencies['unknown'])
     }
+    res.set('content-type', 'text/html')
 })
+
 
