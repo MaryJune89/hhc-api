@@ -31,7 +31,7 @@ const agencies = {
 
 app.get('/', (request, response) => {
     response.sendFile(__dirname + '/index.js')
-    res.set('content-type', 'text/html')
+   
 })
 
 app.listen(process.env.PORT || PORT, () => {
